@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:gravity="center"
+            android:textColor="@color/white"
             android:text="姓名:邱梓綸"
             android:textSize="20sp"/>
         <TextView
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:gravity="center"
+            android:textColor="@color/white"
             android:text="生日:92/1/5"
             android:textSize="20sp"/>
         <TextView
@@ -33,14 +35,20 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:gravity="center"
+            android:textColor="@color/white"
             android:text="星座:摩羯座"
             android:textSize="20sp"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"/>
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
+        android:textColor="@color/white"
         android:text="個人特質:偏安靜，很慢熟，熟了之後非常熱情，很內向，不喜歡交朋友，認為身邊只要有一些知心朋友就好，對身邊任何事有自己獨到的見解。"
         android:textSize="20sp"/>
     <TextView
@@ -48,6 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
+        android:textColor="@color/white"
         android:text="興趣:平常我喜歡讀一些課外讀物，偶爾會打遊戲，還會到郊外踏青。我平常喜歡讀金融相關讀物，會玩的遊戲有傳說對決、原神，假日還會去大坑步道爬山。"
         android:textSize="20sp"/>
     <ImageView
